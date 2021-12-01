@@ -10,7 +10,7 @@
     background-color: #f1f1f1;
     position: fixed;
     height: 100%;
-    overflow: auto;
+    overflow: hidden;
 }
 
 li a {
@@ -24,3 +24,39 @@ li a:hover:not(.active) {
     color: white;
 }
 /*navbar section*/
+
+/* ABOUT US SEC  */
+.about {
+    padding: 20px;
+    display: flex;
+    justify-content:space-between;
+    background-color: #D6D4D1;
+    width: 100%;
+}
+​
+.about  img {
+    width: 50%;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 15%;
+}
+​
+.about-content {
+    width: 50%;
+    height: fit-content;
+    padding-top: 60px;
+​}
+
+.about-content h2 {
+    text-align: center;
+    color: #C47F0E;
+    size: 20px;
+}
+​
+.about-content  p {
+    text-align: justify;
+    font-size: 1.3rem;
+    padding: 20px 0px;
+    margin-right: 60px;
+}
+/* END ABOUT US  */
