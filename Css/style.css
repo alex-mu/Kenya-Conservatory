@@ -1,0 +1,39 @@
+/* start of homepage edit*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ul {
+    list-style-type: none;
+    width: 10.5%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: rgb(55, 187, 73);
+    color: white;
+}
+.homepage {
+    margin-left: 10.5%;
+    padding: 1px 16px;
+    height: 1000px;
+    background-image: url(/Images/hassan-omar-wamwayi-fTHNadVAzg4-unsplash.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+    color: azure;
+}
+h1 {
+  text-align: center;
+}
+/*end of homepage edit*/
