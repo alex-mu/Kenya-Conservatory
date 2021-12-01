@@ -24,3 +24,48 @@ li a:hover:not(.active) {
     color: white;
 }
 /*navbar section*/
+
+/*start of slideshow*/
+h1{
+    text-align: center;
+  }
+  #slider{
+    width:900px;
+    height:400px;
+    margin: 10%;
+    margin-left:10.5%;
+    overflow: auto;
+  }
+  .slides{
+    display:block;
+    width:6000px;
+    height:400px;
+    margin-left:0;
+    padding:0;
+  }
+  .slide{
+    float:left;
+    list-style-type:none;
+    width:900px;
+    height:400px;
+  }
+  img{
+    width:100%;
+    height:600PX;
+  }
+  .column {
+    float: left;
+    margin-left: 10.5%;
+    width: 25%;
+    height: fit-content;
+    padding: 0.5%;
+  }
+  .column img {
+    opacity: 0.8;
+    cursor: pointer;
+    height: 20%;
+  }
+  .column img:hover {
+    opacity: 1;
+  }
+  /*end of slideshow*/
