@@ -19,5 +19,5 @@ $(function()
                 currentSlide = 1;
          }
      });
-    },pause);
+    });
 });
