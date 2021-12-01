@@ -27,11 +27,14 @@ li a:hover:not(.active) {
     margin-left: 10.5%;
     padding: 1px 16px;
     height: 1000px;
-    background-image: url(/Images/hassan-omar-wamwayi-fTHNadVAzg4-unsplash.jpg);
+    background-image: url();
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 0, 0);
+  }
+img {
     background-size: contain;
     background-repeat: no-repeat;
-    font-family: 'Courier New', Courier, monospace;
-    color: azure;
+   
 }
 h1 {
   text-align: center;
