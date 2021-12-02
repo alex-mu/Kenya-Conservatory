@@ -43,44 +43,25 @@ p {
   justify-content: center;
   
 }
-.rotating-text {
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: 600;
-  font-size: 45px;
-  color: #f1f1f1;
-  transform: translateX(-80px);
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
 }
-.rotating-text p .word{
-  position: absolute;
-  display: flex;
-  opacity: 0; 
+
+div.gallery:hover {
+  border: 1px solid #777;
 }
-.rotating-text p .word .letter {
-  transform-origin: center center 25px;
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+  align-items: center;
 }
-.rotating-text p .word .letter.out {
-  transform: rotateX(90deg);
-  transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
-}
-.rotating-text p .word .letter.in {
-  transition: 0.38s ease;
-}
-.rotating-text p .word .letter.behind {
-  transform: rotateX(-90deg);
-}
-.red {
-  color: #e74c3c;
-}
-.purple {
-  color: #8e44ad;
-}
-.blue {
-  color: #3498db;
-}
-.green {
-  color: #2ecc71;
-}
-.yellow {
-  color: #f1c40f;
+
+div.desc {
+  padding: 15px;
+  text-align: center;
 }
 /*end of homepage edit*/
