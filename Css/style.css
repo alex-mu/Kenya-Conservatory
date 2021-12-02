@@ -35,7 +35,7 @@
 
 /*start of homepage*/
 body {
-  background: #222;
+  background-image: linear-gradient(to right, black, orange, gold, green) ;
 }
 p {
   display: flex;
