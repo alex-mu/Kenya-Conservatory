@@ -41,27 +41,11 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  color: azure;
+  font-size: 60px;
 }
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-  align-items: center;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
+img {
+  width: 500px;
+  height: 600px;
 }
 /*end of homepage edit*/
