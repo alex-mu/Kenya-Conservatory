@@ -43,9 +43,28 @@ p {
   justify-content: center;
   color: azure;
   font-size: 60px;
+  text-decoration: underline overline;
 }
 img {
   width: 500px;
   height: 600px;
 }
+.desc {
+  color: azure;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: underline;
+}
 /*end of homepage edit*/
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 50%;
+  align-items: baseline;
+}
