@@ -35,9 +35,9 @@
 
 /*start of homepage*/
 body {
-  background-image: linear-gradient(to right, black, orange, gold, green) ;
+  background-image: linear-gradient(to right, black, orange, green) ;
 }
-p {
+h1 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -50,13 +50,14 @@ img {
   height: 600px;
 }
 .desc {
-  color: azure;
+  color: rgb(255, 255, 255);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-decoration: underline;
+  text-decoration: #111;
+  font-size: 45px;
 }
 /*end of homepage edit*/
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: #f15e5e; /* Green */
   border: none;
   color: white;
   text-align: center;
@@ -65,6 +66,6 @@ img {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  width: 50%;
+  width: 100%;
   align-items: baseline;
 }
