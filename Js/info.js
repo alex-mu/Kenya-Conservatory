@@ -19,5 +19,11 @@ $(function()
                 currentSlide = 1;
          }
      });
-    });
+    },pause);
 });
+$("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
