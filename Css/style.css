@@ -1,4 +1,4 @@
-/* start of homepage edit*/
+/* start of navbar edit*/
 * {
     margin: 0;
     padding: 0;
@@ -23,20 +23,56 @@ li a:hover:not(.active) {
     background-color: rgb(55, 187, 73);
     color: white;
 }
-.homepage {
-    margin-left: 10.5%;
-    padding: 1px 16px;
-    height: 1000px;
-    background-image: url(/Images/hassan-omar-wamwayi-fTHNadVAzg4-unsplash.jpg);
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(0, 0, 0);
-  }
-img {
-    background-size: contain;
-    background-repeat: no-repeat;
-   
+/*end of navbar*/
+
+/*start of homepage*/
+body {
+  background: #222;
 }
-h1 {
-  text-align: center;
+p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.rotating-text {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-size: 45px;
+  color: #f1f1f1;
+  transform: translateX(-80px);
+}
+.rotating-text p .word{
+  position: absolute;
+  display: flex;
+  opacity: 0; 
+}
+.rotating-text p .word .letter {
+  transform-origin: center center 25px;
+}
+.rotating-text p .word .letter.out {
+  transform: rotateX(90deg);
+  transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
+}
+.rotating-text p .word .letter.in {
+  transition: 0.38s ease;
+}
+.rotating-text p .word .letter.behind {
+  transform: rotateX(-90deg);
+}
+.red {
+  color: #e74c3c;
+}
+.purple {
+  color: #8e44ad;
+}
+.blue {
+  color: #3498db;
+}
+.green {
+  color: #2ecc71;
+}
+.yellow {
+  color: #f1c40f;
 }
 /*end of homepage edit*/
